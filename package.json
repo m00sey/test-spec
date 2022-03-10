@@ -1,0 +1,19 @@
+{
+  "name": "test-spec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m00sey/test-spec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m00sey/test-spec/issues"
+  },
+  "homepage": "https://github.com/m00sey/test-spec#readme"
+}
