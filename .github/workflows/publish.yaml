@@ -17,4 +17,5 @@ jobs:
     - run: npm run build
     - uses: actions-js/push@master
       with:
+        directory: './docs'
         github_token: ${{ secrets.GITHUB_TOKEN }}
