@@ -14,10 +14,11 @@ jobs:
       with:
         node-version: '14'
     - run: npm install
+
     - name: "🛠 Generate docs"
     - run: npm run build
 
     - name: "🗄 Commit docs"
-      uses: actions-js/push@master
+    - uses: actions-js/push@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
