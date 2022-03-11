@@ -18,4 +18,5 @@ jobs:
     - uses: actions-js/push@master
       with:
         directory: './docs'
+        message: 'bot: autopublish'
         github_token: ${{ secrets.GITHUB_TOKEN }}
