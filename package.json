@@ -19,6 +19,7 @@
   "homepage": "https://github.com/m00sey/test-spec#readme",
   "dependencies": {
     "http-serve": "^1.0.1",
+    "replace-in-file": "^6.3.2",
     "showdown": "^2.0.3"
   }
 }
